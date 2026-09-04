@@ -3,7 +3,7 @@
 import { useState } from "react";
 
 const WHATSAPP_URL =
-  "https://wa.me/5511999999999?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consulta.";
+  "https://wa.me/5511943007556?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consulta.";
 
 export default function Contato() {
   const [status, setStatus] = useState<"idle" | "sent">("idle");
@@ -37,10 +37,10 @@ export default function Contato() {
 
               <ul className="mt-7 space-y-5">
                 <InfoRow icon={PinIcon}>
-                  Av. das Flores, 1234 — São Paulo, SP
+                  Edifício Helbor, torre Office — Mogi das cruzes, SP
                 </InfoRow>
-                <InfoRow icon={PhoneIcon}>(11) 9 9999-9999</InfoRow>
-                <InfoRow icon={MailIcon}>kaua@odontologia.com.br</InfoRow>
+                <InfoRow icon={PhoneIcon}>(11) 94300-7556</InfoRow>
+                <InfoRow icon={MailIcon}>Kaua.oliveira-lima@hotmail.com</InfoRow>
               </ul>
 
               <div className="mt-7 border-t border-white/10 pt-6">
@@ -101,7 +101,7 @@ export default function Contato() {
                   id="phone"
                   name="phone"
                   type="tel"
-                  placeholder="(11) 9 9999-9999"
+                  placeholder="(11) 99999-9999"
                   className="w-full rounded-lg border border-ink/10 bg-cream/60 px-4 py-3 text-sm text-ink placeholder:text-ink/35 focus:border-gold focus:bg-white focus:outline-none"
                 />
               </Field>

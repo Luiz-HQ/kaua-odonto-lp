@@ -10,7 +10,7 @@ const NAV_LINKS = [
 ];
 
 const WHATSAPP_URL =
-  "https://wa.me/5511999999999?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consulta.";
+  "https://wa.me/5511943007556?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consulta.";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
