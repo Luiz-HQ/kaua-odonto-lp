@@ -16,7 +16,7 @@ export default function Hero() {
   return (
     <section
       id="inicio"
-      className="relative overflow-hidden bg-navy pb-24 pt-20 lg:pb-32 lg:pt-24"
+      className="relative overflow-hidden bg-navy pb-24 pt-20 lg:pb-24 lg:pt-16"
     >
       {/* soft ambient glow, subject-appropriate accent rather than a generic gradient blob grid */}
       <div

@@ -1,27 +1,35 @@
+import {
+  Syringe,
+  Sparkles,
+  Siren,
+  BrushCleaning,
+  type LucideIcon,
+} from "lucide-react";
+
 const SERVICES = [
+{
+    title: "Cirurgia Odontológica",
+    description:
+      "Procedimentos cirúrgicos realizados com segurança e cuidado, sempre buscando o melhor conforto e resultado para cada paciente.",
+    icon: Syringe,
+  },
   {
     title: "Clareamento Dental",
     description:
       "Técnicas a laser e moldeiras personalizadas para um sorriso visivelmente mais branco em poucas sessões.",
-    icon: SparkleIcon,
+    icon: Sparkles,
   },
   {
-    title: "Implante Dentário",
+    title: "Emergencia",
     description:
-      "Reposição de dentes perdidos com implantes de titânio de alta precisão e acompanhamento completo.",
-    icon: ShieldIcon,
+      "Atendimento para aliviar dores e tratar problemas odontológicos que precisam de atenção rápida e especializada.",
+    icon: Siren,
   },
   {
-    title: "Ortodontia",
+    title: "Limpeza",
     description:
-      "Alinhadores transparentes e aparelhos fixos para corrigir o alinhamento com conforto e discrição.",
-    icon: AlignIcon,
-  },
-  {
-    title: "Prótese Dentária",
-    description:
-      "Próteses fixas e removíveis sob medida, devolvendo função e naturalidade à sua mordida.",
-    icon: RibbonIcon,
+      "Remoção de placa bacteriana e tártaro para manter seus dentes limpos, saudáveis e seu sorriso sempre bem cuidado.",
+    icon: BrushCleaning,
   },
 ];
 
@@ -56,7 +64,7 @@ function ServiceCard({
 }: {
   title: string;
   description: string;
-  icon: (props: { className?: string }) => React.JSX.Element;
+  icon: LucideIcon;
 }) {
   return (
     <div className="group h-72 [perspective:1400px]">
@@ -86,73 +94,5 @@ function ServiceCard({
         </div>
       </div>
     </div>
-  );
-}
-
-function SparkleIcon({ className }: { className?: string }) {
-  return (
-    <svg
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="1.5"
-      className={className}
-    >
-      <path
-        d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8L12 3Z"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M19 15l.7 2 2 .7-2 .7-.7 2-.7-2-2-.7 2-.7.7-2Z"
-        strokeLinejoin="round"
-      />
-    </svg>
-  );
-}
-
-function ShieldIcon({ className }: { className?: string }) {
-  return (
-    <svg
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="1.5"
-      className={className}
-    >
-      <path
-        d="M12 3l7 3v5c0 4.5-3 8-7 10-4-2-7-5.5-7-10V6l7-3Z"
-        strokeLinejoin="round"
-      />
-    </svg>
-  );
-}
-
-function AlignIcon({ className }: { className?: string }) {
-  return (
-    <svg
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      className={className}
-    >
-      <path d="M4 7h16M4 12h11M4 17h16" />
-    </svg>
-  );
-}
-
-function RibbonIcon({ className }: { className?: string }) {
-  return (
-    <svg
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="1.5"
-      className={className}
-    >
-      <circle cx="12" cy="8" r="5" />
-      <path d="M9 12.5 7 21l5-3 5 3-2-8.5" strokeLinejoin="round" />
-    </svg>
   );
 }

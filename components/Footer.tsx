@@ -83,7 +83,7 @@ export default function Footer() {
           <p>
             © {year} Dr. Kauã Oliveira — Todos os direitos reservados
           </p>
-          <p>CRO-SP 12345 · CNPJ 00.000.000/0001-00</p>
+          <p>CRO-SP 12345 · CNPJ 00.000.000/0001-00</p> {/*NEED TO SEE THIS WITH KAUA!*/}
         </div>
       </div>
     </footer>

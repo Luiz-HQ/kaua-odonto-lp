@@ -9,19 +9,19 @@ const QUESTIONS = [
       "O clareamento a laser é feito em consultório e dura cerca de uma hora por sessão, com resultados visíveis já na primeira aplicação. Já o clareamento caseiro, com moldeiras personalizadas, costuma levar de 1 a 3 semanas de uso noturno.",
   },
   {
-    question: "O implante dentário é doloroso?",
+    question: "Como funciona uma cirurgia odontológica?",
     answer:
-      "O procedimento é realizado com anestesia local, então não há dor durante a cirurgia. No pós-operatório, um leve desconforto é normal por 2 a 3 dias e é controlado com os medicamentos indicados na consulta.",
+      "A cirurgia é planejada de acordo com a necessidade de cada paciente. O procedimento é realizado com técnicas adequadas e anestesia local, sempre priorizando a segurança, o conforto e uma recuperação tranquila.",
   },
   {
-    question: "Quanto tempo dura um tratamento ortodôntico?",
+    question: "O que fazer em caso de emergência odontológica?",
     answer:
-      "Depende do caso: alinhamentos simples podem levar de 6 a 12 meses, enquanto correções mais complexas podem se estender por até 24 meses. O prazo exato é definido após a avaliação inicial.",
+      "Em casos de dor intensa, trauma, inchaço ou outros desconfortos repentinos, é importante buscar atendimento o quanto antes. A avaliação profissional ajuda a identificar a causa e definir o tratamento mais adequado.",
   },
   {
-    question: "Qual a diferença entre prótese fixa e removível?",
+    question: "Com que frequência devo fazer uma limpeza dental?",
     answer:
-      "A prótese fixa é cimentada sobre dentes ou implantes e não é removida pelo paciente, oferecendo maior estabilidade. A removível pode ser retirada para higienização e é indicada quando há perda de vários dentes.",
+      "A frequência ideal depende da saúde bucal e das necessidades de cada paciente. De forma geral, avaliações e limpezas periódicas ajudam a prevenir o acúmulo de placa e tártaro e a manter dentes e gengivas saudáveis.",
   },
   {
     question: "Como posso agendar uma consulta?",
